@@ -1,33 +1,34 @@
 {
-	"name": "@sone-dao/tone-service-app",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"next": "13.4.3",
-		"react": "18.2.0",
-		"react-dom": "18.2.0"
-	},
-	"devDependencies": {
-		"@cloudflare/next-on-pages": "^0.10.1",
-		"@sone-dao/sone-react-placeholder": "^1.2.2",
-		"@sone-dao/sone-react-utils": "^1.0.1",
-		"@sone-dao/tone-react-api": "^0.3.0",
-		"@sone-dao/tone-react-helmet": "^0.25.0",
-		"@sone-dao/tone-react-sidebar": "^0.14.2",
-		"@sone-dao/tone-react-uploader": "^0.7.1",
-		"@sone-dao/tone-react-user-controller": "0.6.3",
-		"@types/node": "20.2.3",
-		"@types/react": "18.2.6",
-		"@types/react-dom": "18.2.4",
-		"eslint": "8.41.0",
-		"eslint-config-next": "13.4.3",
-		"sass": "^1.62.1",
-		"typescript": "5.0.4"
-	}
+  "name": "@sone-dao/tone-service-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "next": "13.4.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@sone-dao/sone-react-placeholder": "^1.2.2",
+    "@sone-dao/sone-react-utils": "^1.0.1",
+    "@sone-dao/tone-react-api": "^0.3.0",
+    "@sone-dao/tone-react-helmet": "0.26.0",
+    "@sone-dao/tone-react-sidebar": "0.15.0",
+    "@sone-dao/tone-react-uploader": "^0.7.1",
+    "@sone-dao/tone-react-user-controller": "0.7.1",
+    "@types/node": "20.2.3",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "husky": "^8.0.3",
+    "sass": "^1.62.1",
+    "typescript": "5.0.4"
+  }
 }
