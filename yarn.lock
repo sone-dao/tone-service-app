@@ -173,6 +173,11 @@
   resolved "https://registry.yarnpkg.com/@sone-dao/tone-react-api/-/tone-react-api-0.3.0.tgz#261fc0285a4b8d7166e4eee561e18edb3c42a41e"
   integrity sha512-FmbrnHyIT/m4rDJ7IHDkS1cNoK9CWZmcwXlfA+IU47by5r6cLXGGfyhAAR6JtptSjoXhmhV9NZ8KXK5iltIq9A==
 
+"@sone-dao/tone-react-core-ui@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@sone-dao/tone-react-core-ui/-/tone-react-core-ui-0.1.4.tgz#9eddd08402574bd1dd5df7d778d3760665dcd47e"
+  integrity sha512-DldVhiEvrqn/tcSkG6/hG6YEsICo4Mw+0QtqwzCmcFnrnIi6MzmJCbqMSVhlTwY1lGLT4t3alyD2GcoaNMZiPA==
+
 "@sone-dao/tone-react-helmet@0.26.0":
   version "0.26.0"
   resolved "https://registry.yarnpkg.com/@sone-dao/tone-react-helmet/-/tone-react-helmet-0.26.0.tgz#bf0d1dca7e755a0c8ae7cec9822a852a208203da"

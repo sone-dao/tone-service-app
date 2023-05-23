@@ -22,10 +22,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
-        <Script
-          src="https://kit.fontawesome.com/db877d7948.js"
-          crossOrigin="anonymous"
-        />
+        <Script src="https://kit.fontawesome.com/db877d7948.js" />
       </head>
       <body>
         <UserController>
