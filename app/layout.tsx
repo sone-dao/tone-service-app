@@ -1,7 +1,6 @@
 import Helmet from '@sone-dao/tone-react-helmet'
 import Sidebar from '@sone-dao/tone-react-sidebar'
 import UserController from '@sone-dao/tone-react-user-controller'
-import Script from 'next/script'
 import React from 'react'
 import './global.scss'
 
@@ -22,7 +21,6 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
-        <Script src="https://kit.fontawesome.com/db877d7948.js" />
       </head>
       <body>
         <UserController>
