@@ -1,6 +1,6 @@
 import Helmet from '@sone-dao/tone-react-helmet'
 import Sidebar from '@sone-dao/tone-react-sidebar'
-import UserController from '@sone-dao/tone-react-user-controller'
+//import UserController from '@sone-dao/tone-react-user-controller'
 import React from 'react'
 import './global.scss'
 
@@ -17,11 +17,9 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
-        <UserController>
-          <Helmet />
-          <Sidebar />
-          <main>{children}</main>
-        </UserController>
+        <Helmet />
+        <Sidebar />
+        <main>{children}</main>
       </body>
     </html>
   )

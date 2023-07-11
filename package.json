@@ -16,7 +16,7 @@
     "@sone-dao/tone-react-core-ui": "0.7.0",
     "@sone-dao/tone-react-helmet": "0.26.0",
     "@sone-dao/tone-react-login": "0.4.0",
-    "@sone-dao/tone-react-sidebar": "0.17.0",
+    "@sone-dao/tone-react-sidebar": "0.20.0",
     "next": "13.4.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
