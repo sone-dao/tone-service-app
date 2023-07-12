@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid'
 import { sendMail } from '../../utils/email'
 import { sb } from '../../utils/sb'
 
-export default async function generateNonce(email: string = '') {
+export default async function genAttempt(email: string = '') {
   return await new Promise(async (resolve, reject) => {
     const { data: user, error: usersSqlError } = await sb
       .from('tone_users')
@@ -15,7 +15,7 @@ export default async function generateNonce(email: string = '') {
 
     let otp = ''
 
-    for (let x = 0; x <= 6; x++) otp += Math.floor(Math.random() * 10)
+    for (let x = 0; x < 6; x++) otp += Math.floor(Math.random() * 10)
 
     const nonce = uuidv4() || ''
 
@@ -46,8 +46,8 @@ export default async function generateNonce(email: string = '') {
       to: email,
       subject: `Login code for ${email}`,
       body: {
-        html: nonce,
-        text: nonce,
+        html: otp,
+        text: otp,
       },
     })
       .then((response) => resolve({ status: 200, ok: true, response }))

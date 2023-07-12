@@ -17,12 +17,14 @@
     "@sone-dao/tone-react-helmet": "0.26.0",
     "@sone-dao/tone-react-sidebar": "0.20.0",
     "@supabase/supabase-js": "^2.26.0",
+    "jsonwebtoken": "^9.0.1",
     "next": "13.4.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
     "@types/node": "20.2.3",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
