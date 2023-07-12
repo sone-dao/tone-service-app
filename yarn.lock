@@ -183,6 +183,11 @@
   resolved "https://registry.npmjs.org/@sone-dao/tone-react-helmet/-/tone-react-helmet-0.26.0.tgz"
   integrity sha512-t8m1Mne5bU7Sy9uxElTJ+wTnL4llwt5Bo/nQ5dhEKWttPnbSsY9i55sNsgeIMHWx18M6PZijXfeC6iEDfLhcjQ==
 
+"@sone-dao/tone-react-login@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@sone-dao/tone-react-login/-/tone-react-login-0.5.0.tgz#8d00c4733e874664fe479747343de1c11ba07cbe"
+  integrity sha512-kMkcAbdyNwv1dolcnMtxOI94q7WgwieHHbDIgyNVQRrmN66IYs9c2BaVDlwsda9LeCV9+5xtHI3nF39X5rYFiQ==
+
 "@sone-dao/tone-react-sidebar@0.20.0":
   version "0.20.0"
   resolved "https://registry.npmjs.org/@sone-dao/tone-react-sidebar/-/tone-react-sidebar-0.20.0.tgz"

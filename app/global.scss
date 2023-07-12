@@ -41,8 +41,9 @@ body {
   background-color: rgba(var(--global-background));
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
+  justify-content: center;
+  opacity: 1;
   width: 100%;
 }
 

@@ -18,10 +18,19 @@ export default async function authEmail(
     if (userSqlError)
       reject({ ok: false, message: 'DATABASE_ERROR', error: userSqlError })
 
-    const nonces = user.loginAttempts.map((attempt: any) => attempt.nonce)
+    if (nonce) {
+      const nonces = user.loginAttempts.map((attempt: any) => attempt.nonce)
 
-    !nonces.includes(nonce) &&
-      reject({ status: 401, ok: false, message: 'INVALID_NONCE' })
+      !nonces.includes(nonce) &&
+        reject({ status: 401, ok: false, message: 'INVALID_NONCE' })
+    }
+
+    if (otp) {
+      const otps = user.loginAttempts.map((attempt: any) => attempt.otp)
+
+      !otps.includes(otp) &&
+        reject({ status: 401, ok: false, message: 'INVALID_OTP' })
+    }
 
     const tokenPayload = { userId: user.userId, roles: user.roles }
 

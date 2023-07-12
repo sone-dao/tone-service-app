@@ -10,8 +10,8 @@ export default function LoginPage() {
       `'content content' 'content content'`
     )
 
-    //document.documentElement.style.setProperty('--helmet-display', 'none')
-    //document.documentElement.style.setProperty('--sidebar-display', 'none')
+    document.documentElement.style.setProperty('--helmet-display', 'none')
+    document.documentElement.style.setProperty('--sidebar-display', 'none')
   }, [])
 
   return <Login />
