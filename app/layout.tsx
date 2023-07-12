@@ -1,6 +1,5 @@
 import Helmet from '@sone-dao/tone-react-helmet'
 import Sidebar from '@sone-dao/tone-react-sidebar'
-//import UserController from '@sone-dao/tone-react-user-controller'
 import React from 'react'
 import './global.scss'
 
