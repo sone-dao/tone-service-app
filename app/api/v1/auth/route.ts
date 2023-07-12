@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server'
 import authEmail from './authEmail'
 import genAttempt from './genAttempt'
 
+export const runtime = 'edge'
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
   const email = searchParams.get('email') || ''
