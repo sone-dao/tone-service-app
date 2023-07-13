@@ -168,15 +168,15 @@
   resolved "https://registry.npmjs.org/@sone-dao/sone-react-utils/-/sone-react-utils-1.0.1.tgz"
   integrity sha512-48hho0n41lqMY5NByAqnMPy11vVN5xXOYwTapdOvgRHVtVZVboA5U/zRJcLEzbvTN/P8w6gzCuqXfgh/xyTHiA==
 
-"@sone-dao/tone-react-api@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.npmjs.org/@sone-dao/tone-react-api/-/tone-react-api-0.5.0.tgz"
-  integrity sha512-gHmNZ4FeYAmpKCrtYudyzTQunQBxDLydO56wR7rP5JTzrqU4KUgbZNLEHuLoEie6YFzw0P93ff/rDgMP7lJRvQ==
-
-"@sone-dao/tone-react-core-ui@0.7.0":
+"@sone-dao/tone-react-api@0.7.0":
   version "0.7.0"
-  resolved "https://registry.npmjs.org/@sone-dao/tone-react-core-ui/-/tone-react-core-ui-0.7.0.tgz"
-  integrity sha512-dDZb/Vdxzgal8hSZpjuf37oYny9ji+Mnq0dOt7TzC4XHLY3m0NfHFAtM+76UQQKrlT6COuh+o4Nyup5hsqnDXA==
+  resolved "https://registry.yarnpkg.com/@sone-dao/tone-react-api/-/tone-react-api-0.7.0.tgz#d9e259222745b47ede08eac1021314942e65f389"
+  integrity sha512-7sXeIFM6KRY1/jq6vLdPj2EdT/77icPQglpe9iqd+eU/tRNNL7oubPzHDeAjSEB5XiUhou/+0lIfKhMqNhKYLA==
+
+"@sone-dao/tone-react-core-ui@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@sone-dao/tone-react-core-ui/-/tone-react-core-ui-0.9.0.tgz#d20ccbee35efb843a2e884be8759f13bf716107f"
+  integrity sha512-oQ2zvzvFGnZtfpQlLS3nGxtxHMGxhj/4YQspqd1Weh/bID2ieuse5l9eAvOl+W77+YXtLhxsTKiC0Ab0R00JeA==
 
 "@sone-dao/tone-react-helmet@0.26.0":
   version "0.26.0"
@@ -188,10 +188,10 @@
   resolved "https://registry.yarnpkg.com/@sone-dao/tone-react-login/-/tone-react-login-0.5.0.tgz#8d00c4733e874664fe479747343de1c11ba07cbe"
   integrity sha512-kMkcAbdyNwv1dolcnMtxOI94q7WgwieHHbDIgyNVQRrmN66IYs9c2BaVDlwsda9LeCV9+5xtHI3nF39X5rYFiQ==
 
-"@sone-dao/tone-react-sidebar@0.20.0":
-  version "0.20.0"
-  resolved "https://registry.npmjs.org/@sone-dao/tone-react-sidebar/-/tone-react-sidebar-0.20.0.tgz"
-  integrity sha512-WYKvTRKbC/0bpt13fZyII2JvnhBmogCZKSfiKhXaobaJavavssF+71lj9w7fi8eWcJ3f0Hv/3HJHLpbN6t9pFw==
+"@sone-dao/tone-react-sidebar@0.21.2":
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/@sone-dao/tone-react-sidebar/-/tone-react-sidebar-0.21.2.tgz#ac7155cff1afd1ce348f2d24c608f0fb132120ff"
+  integrity sha512-xrUhgoYueyJogQprUpbsSY5PgyXUw1WcUMLk/sY9gpkgzmsyJcMHqPR9R3eYsoof9R0VDQIDxV9am4/HAc3EXg==
 
 "@supabase/functions-js@^2.1.0":
   version "2.1.2"

@@ -12,24 +12,18 @@
   "dependencies": {
     "@sone-dao/sone-react-placeholder": "^1.2.2",
     "@sone-dao/sone-react-utils": "^1.0.1",
-    "@sone-dao/tone-react-api": "0.5.0",
-    "@sone-dao/tone-react-core-ui": "0.7.0",
+    "@sone-dao/tone-react-api": "0.8.1",
+    "@sone-dao/tone-react-core-ui": "0.11.0",
     "@sone-dao/tone-react-helmet": "0.26.0",
-    "@sone-dao/tone-react-login": "^0.5.0",
-    "@sone-dao/tone-react-sidebar": "0.20.0",
-    "@supabase/supabase-js": "^2.26.0",
-    "jsonwebtoken": "^9.0.1",
+    "@sone-dao/tone-react-sidebar": "0.21.2",
     "next": "13.4.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "uuid": "^9.0.0"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/jsonwebtoken": "^9.0.2",
     "@types/node": "20.2.3",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
-    "@types/uuid": "^9.0.2",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "husky": "^8.0.3",
